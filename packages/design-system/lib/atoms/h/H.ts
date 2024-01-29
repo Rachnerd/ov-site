@@ -2,7 +2,7 @@ import { LitElement, unsafeCSS } from "lit";
 import { customElement } from "lit/decorators/custom-element.js";
 import { property } from "lit/decorators/property.js";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
-import headingStyles from "../../../css/typography/classes/headings.css?inline";
+import headingStyles from "@ov-site/style/typography/classes/headings.css?inline";
 
 export type HeadingSize = 1 | 2 | 3 | 4 | 5;
 

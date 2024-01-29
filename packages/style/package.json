@@ -1,0 +1,21 @@
+{
+  "name": "@ov-site/style",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass --watch lib:dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}

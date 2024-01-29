@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.9.0",
+    "@ov-site/style": "^0.0.0",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",
     "@storybook/blocks": "^7.6.10",
@@ -45,5 +46,8 @@
     "storybook-dark-mode": "^3.0.3",
     "typescript": "^5.3.3",
     "vite-plugin-dts": "^3.7.2"
+  },
+  "peerDependencies": {
+    "@ov-site/style": "^0.0.0"
   }
 }

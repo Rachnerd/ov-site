@@ -3,8 +3,8 @@ import { themes } from "@storybook/theming";
 /**
  * Design system
  */
-import "../css/reset.css";
-import "../css/styles.css";
+import "@ov-site/style/reset.css";
+import "@ov-site/style/styles.css";
 /**
  * Storybook dark mode mdx
  */
