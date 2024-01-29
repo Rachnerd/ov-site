@@ -1,0 +1,35 @@
+import { Canvas, Meta, ArgsTable } from "@storybook/blocks";
+
+import * as Stories from "./H.stories";
+
+<Meta of={Stories} />
+
+# Heading
+
+> Not using shadown DOM? Use heading CSS classes provided by the style package instead.
+
+This component provides heading elements ranging from 1 to 5.
+
+## Table of Contents
+
+- [API](#api)
+- [Accessibility](#accessibility)
+- [Stories](#stories)
+
+## API
+
+<ArgsTable story="Primary" />
+
+<Canvas of={Stories.Primary} />
+
+## Accessibility
+Visually pleasing heading hierarchies do not always match accessible hierarchies. This component can 
+style headings without changing its size.
+
+<Canvas of={Stories.Accessibility} />
+ 
+## Stories
+
+### All sizes
+
+<Canvas of={Stories.AllSizes} />
