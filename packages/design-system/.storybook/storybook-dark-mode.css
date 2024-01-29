@@ -1,13 +1,13 @@
 /* Workaround for mdx files not supporting dark mode */
 html.dark {
-  --_sb-background-color: var(--_ov-background-color);
-  --_sb-color: var(--_ov-font-color);
+  --sb-background-color: var(--ov-background-color);
+  --sb-color: var(--ov-font-color);
 }
 
 html.dark .sbdocs-wrapper,
 html.dark .docblock-argstable,
 html.dark td:not(:focus) {
-  background-color: var(--_sb-background-color) !important;
+  background-color: var(--sb-background-color) !important;
 }
 
 html.dark h1,
@@ -17,7 +17,7 @@ html.dark h4,
 html.dark h5,
 html.dark p,
 html.dark svg {
-  color: var(--_sb-color) !important;
+  color: var(--sb-color) !important;
 }
 
 html.dark .docblock-argstable,
@@ -26,11 +26,11 @@ html.dark .docblock-code-toggle,
 html.dark select,
 html.dark td,
 html.dark tr {
-  color: var(--_sb-color);
-  background-color: var(--_sb-background-color) !important;
+  color: var(--sb-color);
+  background-color: var(--sb-background-color) !important;
 }
 
 html.dark .docs-story {
   /* Uses ov-background directly because it's the background of the component */
-  background-color: var(--_ov-background-color);
+  background-color: var(--ov-background-color);
 }

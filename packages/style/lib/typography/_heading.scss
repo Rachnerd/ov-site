@@ -1,0 +1,47 @@
+$heading-margin: 0 0 12px;
+
+$ov-heading-map: (
+  h1: (
+    color: var(--ov-font-color),
+    size: 52px,
+    line-height: calc(58 / 52),
+    weight: 800,
+    margin: $heading-margin,
+  ),
+  h2: (
+    color: var(--ov-font-color),
+    size: 36px,
+    line-height: calc(40 / 36),
+    weight: 700,
+    margin: $heading-margin,
+  ),
+  h3: (
+    color: var(--ov-font-color),
+    size: 24px,
+    line-height: calc(30 / 24),
+    weight: 700,
+    margin: $heading-margin,
+  ),
+  h4: (
+    color: var(--ov-font-color),
+    size: 21px,
+    line-height: calc(26 / 21),
+    weight: 700,
+    margin: $heading-margin,
+  ),
+  h5: (
+    color: var(--ov-font-color),
+    size: 16px,
+    line-height: calc(24 / 16),
+    weight: 700,
+    margin: $heading-margin,
+  ),
+);
+
+@mixin headings {
+  @each $heading, $values in $ov-heading-map {
+    @each $name, $value in $values {
+      --ov-#{$heading}-#{$name}: #{$value};
+    }
+  }
+}

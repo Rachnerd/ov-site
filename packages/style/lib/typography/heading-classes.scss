@@ -1,0 +1,11 @@
+@for $i from 1 through 5 {
+  .h#{$i} {
+    font-family: var(--ov-font-family);
+    color: var(--ov-h#{$i}-color);
+    line-height: var(--ov-h#{$i}-line-height);
+    font-size: var(--ov-h#{$i}-size);
+    font-style: var(--ov-h#{$i}-style);
+    font-weight: var(--ov-h#{$i}-weight);
+    margin: var(--ov-h#{$i}-margin);
+  }
+}
