@@ -51,10 +51,10 @@ export const AllSizes: StoryObj<H> = {
 export const Accessibility: StoryObj<H> = {
   render: () =>
     html`
-      <ov-h h="1">Heading 1</ov-h>
-      <ov-h h="1" as="2">Heading 1</ov-h>
-      <ov-h h="1" as="3">Heading 1</ov-h>
-      <ov-h h="1" as="4">Heading 1</ov-h>
-      <ov-h h="1" as="5">Heading 1</ov-h>
+      <ov-h size="1">Heading 1</ov-h>
+      <ov-h size="1" as="2">Heading 1</ov-h>
+      <ov-h size="1" as="3">Heading 1</ov-h>
+      <ov-h size="1" as="4">Heading 1</ov-h>
+      <ov-h size="1" as="5">Heading 1</ov-h>
     `,
 };
